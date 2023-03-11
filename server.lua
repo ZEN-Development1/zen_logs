@@ -70,4 +70,4 @@ AddEventHandler('esx:playerMoneyTransfer', function(sender, recipient, amount)
         -- Construct the message to send to Discord
         local message = string.format('%s transferred $%s to %s', GetPlayerName(sender), amount, GetPlayerName(recipient))
         -- Send the message using the specified webhook URL
-        SendDiscordMessage(Config.PlayerMoneyTransferWebhook,
+        SendDiscord
